@@ -1,0 +1,178 @@
+body{
+    margin:0px;
+}
+.parent_div{
+    height: 100vh;
+    width: 98vw;
+    
+}
+.hor{
+    visibility:hidden;
+}
+header{
+    text-align: center;
+    font-family: Helvetica;
+    height: 10%;
+    margin: 28px 0;
+    color: #354463;  
+}
+.image_class{
+    background-image: url('images/annie-spratt-427340-unsplash-\(1\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Flood Std;
+    font-style: normal;
+    font-size: 24px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    background-color: #354463;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 33px;
+    padding-bottom: 30px;
+
+}
+
+
+.formdiv{
+    width: 80%;
+    background-color: #354463;
+    font-family: Helvetica;
+    margin-top: 32px;
+    font-size: 11px;
+    
+
+}
+.formdiv input{
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: #354463;
+    padding: 5px 0px;
+    width: 90%;
+    font-size: 16px;
+    font-family: Helvetica;
+    
+}
+.formdiv label{
+    font-size: 1em;
+}
+.don_note{
+   margin-top: 50px;
+   font-size: 18px;
+}
+.sub_btn input{
+     width: 100%;
+     height: 50px;
+     background-color: #C1F7D5 ;
+     border: 1px solid white;
+     border-radius: 25px;
+     margin-top: 32px;
+     font-family: Helvetica;
+     color: #354463;
+     font-weight: bold;
+}
+hr{
+    visibility: hidden;
+}
+.footer{
+    margin-top: 50px;
+    width: 80%;
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    color: #354463;
+    font-family: Helvetica;
+    align-items: flex-start;
+    margin-bottom: 50px;
+    padding-bottom: 52px;
+}
+.undr{
+    text-decoration: underline;
+}
+.slogan{
+    grid-column: 2/3;
+}
+input:focus{
+    color: white
+}
+
+@media all and (max-width:1120px) and (min-width:640px){
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .Learn{
+        grid-column: 2/3;
+    }
+    .slogan{
+        grid-column: 3/4;
+    }
+}
+@media all and (min-width:1120px){
+   .formdiv{
+       width: 40%;  
+   }
+   header{
+       font-size: 28px;
+       
+   }
+  
+   .image_class{
+       align-items: flex-start;
+       display: flex;
+       flex-direction: row-reverse;
+       padding-top:32px;
+       justify-content: space-between;
+    
+   }
+   .slog{
+       margin-top: 30px;
+       word-spacing: 10px;
+       margin-right: 20%;
+       width: 250px;
+       font-size: 42px;
+   }
+   .contact{
+       text-decoration: none;
+   }
+   .follow p{
+       text-decoration: none;
+   }
+   .formdiv{
+       margin-left: 10%;
+   }
+   .footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+
+  
+}
+ .slogan{
+     grid-column: 5/6;    
+}
+.payment{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+.sub_btn input{
+   padding: 10px;
+   height: 100%;
+   margin-bottom: 7px;
+   align-self: center;   
+}
+.image_class{
+    background-repeat: repeat;
+    background-size: inherit;
+}
+hr{
+    visibility: visible;
+}
+
+}
