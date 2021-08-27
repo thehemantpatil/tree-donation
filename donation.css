@@ -103,6 +103,7 @@ hr{
 }
 .slogan{
     grid-column: 2/3;
+    
 }
 input:focus{
     color: white
@@ -119,6 +120,7 @@ input:focus{
     }
     .slogan{
         grid-column: 3/4;
+        font-family: "flood-std";
     }
 }
 @media all and (min-width:1120px){
