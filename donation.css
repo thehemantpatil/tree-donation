@@ -103,6 +103,7 @@ hr{
 }
 .slogan{
     grid-column: 2/3;
+    font-family: "flood-std";
     
 }
 input:focus{
